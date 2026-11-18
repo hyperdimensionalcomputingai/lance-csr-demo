@@ -1,0 +1,27 @@
+person_id,name,gender,age,hair_colour,eye_colour,interests
+1,Abby,female,31,Black,Green,robotics
+2,Boris,male,36,Black,Brown,music;robotics
+3,Carla,female,28,Brown,Hazel,photography
+4,Dmitri,male,45,Blond,Blue,gardening
+5,Elliott,male,30,Dark brown,Blue,robotics
+6,Farah,female,26,Black,Brown,music
+7,Gabriel,male,39,Brown,Brown,gardening
+8,Hannah,female,33,Black,Brown,music
+9,Ines,female,29,Brown,Green,photography;music
+10,Jonas,male,34,Blond,Blue,robotics
+11,Kenneth,male,37,Black,Brown,music;gardening
+12,Leo,male,35,Blond,Brown,robotics
+13,Maya,female,34,Brown,Brown,photography
+14,Nina,female,33,Black,Blue,photography
+15,Omar,male,29,Brown,Brown,photography
+16,Pedro,male,32,Black,Brown,photography;robotics
+17,Qian,female,33,Black,Brown,gardening
+18,Rafael,male,58,Grey,Brown,gardening;robotics
+19,Sherry,female,27,Red,Blue,music
+20,Tara,female,27,Red,Hazel,photography
+21,Uma,female,41,Black,Brown,gardening
+22,Valentina,female,30,Blond,Hazel,gardening
+23,William,male,31,Dark brown,Brown,robotics
+24,Xi,male,45,Black,Brown,music
+25,Yusuf,male,38,Dark brown,Brown,music
+26,Zoe,female,32,Black,Brown,gardening;robotics

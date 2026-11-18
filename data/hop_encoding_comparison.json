@@ -1,0 +1,571 @@
+{
+  "dim": 10000,
+  "seed": 87,
+  "max_hops": 3,
+  "candidate_count": 13,
+  "random_recall_at_3": 0.23076923076923078,
+  "versions": {
+    "torch": "2.15.0",
+    "torch-hd": "5.8.4",
+    "lance-csr": "0.12.0"
+  },
+  "swap_check": [
+    {
+      "method": "permutation",
+      "identical_after_swap": false,
+      "cosine_after_swap": -0.012002712115645409
+    },
+    {
+      "method": "role_binding",
+      "identical_after_swap": false,
+      "cosine_after_swap": -0.013029315508902073
+    },
+    {
+      "method": "no_marker",
+      "identical_after_swap": true,
+      "cosine_after_swap": 1.0
+    }
+  ],
+  "retrieval": [
+    {
+      "method": "permutation",
+      "cue_count": 1,
+      "ranking": [
+        {
+          "name": "Xi",
+          "score": 0.2519319951534271
+        },
+        {
+          "name": "Pedro",
+          "score": 0.22635380923748016
+        },
+        {
+          "name": "Boris",
+          "score": 0.22081556916236877
+        },
+        {
+          "name": "Kenneth",
+          "score": 0.21711750328540802
+        },
+        {
+          "name": "Omar",
+          "score": 0.004008959978818893
+        },
+        {
+          "name": "Leo",
+          "score": 0.0002719526819419116
+        },
+        {
+          "name": "William",
+          "score": -0.0017230111407116055
+        },
+        {
+          "name": "Elliott",
+          "score": -0.002710241824388504
+        },
+        {
+          "name": "Rafael",
+          "score": -0.00518976291641593
+        },
+        {
+          "name": "Yusuf",
+          "score": -0.005974232219159603
+        },
+        {
+          "name": "Jonas",
+          "score": -0.006315531674772501
+        },
+        {
+          "name": "Gabriel",
+          "score": -0.012984362430870533
+        },
+        {
+          "name": "Dmitri",
+          "score": -0.019981063902378082
+        }
+      ],
+      "pedro_rank": 2,
+      "recall_at_3": 1
+    },
+    {
+      "method": "permutation",
+      "cue_count": 2,
+      "ranking": [
+        {
+          "name": "Boris",
+          "score": 0.3258957862854004
+        },
+        {
+          "name": "Pedro",
+          "score": 0.31773507595062256
+        },
+        {
+          "name": "Xi",
+          "score": 0.1844799667596817
+        },
+        {
+          "name": "William",
+          "score": 0.17806275188922882
+        },
+        {
+          "name": "Elliott",
+          "score": 0.1767595410346985
+        },
+        {
+          "name": "Leo",
+          "score": 0.17482388019561768
+        },
+        {
+          "name": "Jonas",
+          "score": 0.16862648725509644
+        },
+        {
+          "name": "Kenneth",
+          "score": 0.1605997085571289
+        },
+        {
+          "name": "Rafael",
+          "score": 0.15311582386493683
+        },
+        {
+          "name": "Yusuf",
+          "score": 0.0033413388300687075
+        },
+        {
+          "name": "Omar",
+          "score": 0.0010147145949304104
+        },
+        {
+          "name": "Gabriel",
+          "score": -0.012109627947211266
+        },
+        {
+          "name": "Dmitri",
+          "score": -0.013084979727864265
+        }
+      ],
+      "pedro_rank": 2,
+      "recall_at_3": 1
+    },
+    {
+      "method": "permutation",
+      "cue_count": 3,
+      "ranking": [
+        {
+          "name": "Pedro",
+          "score": 0.3745940029621124
+        },
+        {
+          "name": "Boris",
+          "score": 0.26679831743240356
+        },
+        {
+          "name": "Leo",
+          "score": 0.21628215909004211
+        },
+        {
+          "name": "William",
+          "score": 0.20370575785636902
+        },
+        {
+          "name": "Omar",
+          "score": 0.19848068058490753
+        },
+        {
+          "name": "Xi",
+          "score": 0.14831821620464325
+        },
+        {
+          "name": "Elliott",
+          "score": 0.1419139951467514
+        },
+        {
+          "name": "Jonas",
+          "score": 0.1374998390674591
+        },
+        {
+          "name": "Kenneth",
+          "score": 0.13432495296001434
+        },
+        {
+          "name": "Rafael",
+          "score": 0.12992294132709503
+        },
+        {
+          "name": "Yusuf",
+          "score": 0.06827933341264725
+        },
+        {
+          "name": "Gabriel",
+          "score": -0.007736175321042538
+        },
+        {
+          "name": "Dmitri",
+          "score": -0.009557574987411499
+        }
+      ],
+      "pedro_rank": 1,
+      "recall_at_3": 1
+    },
+    {
+      "method": "role_binding",
+      "cue_count": 1,
+      "ranking": [
+        {
+          "name": "Xi",
+          "score": 0.27085259556770325
+        },
+        {
+          "name": "Kenneth",
+          "score": 0.23966708779335022
+        },
+        {
+          "name": "Boris",
+          "score": 0.238951176404953
+        },
+        {
+          "name": "Pedro",
+          "score": 0.23353753983974457
+        },
+        {
+          "name": "Rafael",
+          "score": 0.010245870798826218
+        },
+        {
+          "name": "Yusuf",
+          "score": 0.008989371359348297
+        },
+        {
+          "name": "Gabriel",
+          "score": 0.00862034410238266
+        },
+        {
+          "name": "Elliott",
+          "score": 0.008579777553677559
+        },
+        {
+          "name": "William",
+          "score": 0.007697083055973053
+        },
+        {
+          "name": "Leo",
+          "score": 0.007426038850098848
+        },
+        {
+          "name": "Jonas",
+          "score": 0.006964655593037605
+        },
+        {
+          "name": "Omar",
+          "score": 0.006757280323654413
+        },
+        {
+          "name": "Dmitri",
+          "score": 0.00037812438677065074
+        }
+      ],
+      "pedro_rank": 4,
+      "recall_at_3": 0
+    },
+    {
+      "method": "role_binding",
+      "cue_count": 2,
+      "ranking": [
+        {
+          "name": "Boris",
+          "score": 0.325532466173172
+        },
+        {
+          "name": "Pedro",
+          "score": 0.3119375705718994
+        },
+        {
+          "name": "Xi",
+          "score": 0.1874745935201645
+        },
+        {
+          "name": "Elliott",
+          "score": 0.1789538711309433
+        },
+        {
+          "name": "William",
+          "score": 0.17765940725803375
+        },
+        {
+          "name": "Leo",
+          "score": 0.17333510518074036
+        },
+        {
+          "name": "Jonas",
+          "score": 0.17178402841091156
+        },
+        {
+          "name": "Kenneth",
+          "score": 0.16364389657974243
+        },
+        {
+          "name": "Rafael",
+          "score": 0.1514711230993271
+        },
+        {
+          "name": "Yusuf",
+          "score": -0.003656508633866906
+        },
+        {
+          "name": "Dmitri",
+          "score": -0.0052788471803069115
+        },
+        {
+          "name": "Omar",
+          "score": -0.007780442945659161
+        },
+        {
+          "name": "Gabriel",
+          "score": -0.010791733860969543
+        }
+      ],
+      "pedro_rank": 2,
+      "recall_at_3": 1
+    },
+    {
+      "method": "role_binding",
+      "cue_count": 3,
+      "ranking": [
+        {
+          "name": "Pedro",
+          "score": 0.3652017414569855
+        },
+        {
+          "name": "Boris",
+          "score": 0.2593628764152527
+        },
+        {
+          "name": "Leo",
+          "score": 0.2158581167459488
+        },
+        {
+          "name": "William",
+          "score": 0.20501315593719482
+        },
+        {
+          "name": "Omar",
+          "score": 0.19226229190826416
+        },
+        {
+          "name": "Xi",
+          "score": 0.14672480523586273
+        },
+        {
+          "name": "Elliott",
+          "score": 0.13884390890598297
+        },
+        {
+          "name": "Kenneth",
+          "score": 0.13487225770950317
+        },
+        {
+          "name": "Jonas",
+          "score": 0.13317109644412994
+        },
+        {
+          "name": "Rafael",
+          "score": 0.121873639523983
+        },
+        {
+          "name": "Yusuf",
+          "score": 0.0584588423371315
+        },
+        {
+          "name": "Dmitri",
+          "score": -0.008355329744517803
+        },
+        {
+          "name": "Gabriel",
+          "score": -0.009163486771285534
+        }
+      ],
+      "pedro_rank": 1,
+      "recall_at_3": 1
+    },
+    {
+      "method": "no_marker",
+      "cue_count": 1,
+      "ranking": [
+        {
+          "name": "Xi",
+          "score": 0.5196893215179443
+        },
+        {
+          "name": "Kenneth",
+          "score": 0.49056410789489746
+        },
+        {
+          "name": "Boris",
+          "score": 0.4825098514556885
+        },
+        {
+          "name": "Gabriel",
+          "score": 0.3469618856906891
+        },
+        {
+          "name": "Yusuf",
+          "score": 0.33606457710266113
+        },
+        {
+          "name": "Dmitri",
+          "score": 0.3180250823497772
+        },
+        {
+          "name": "Pedro",
+          "score": 0.2826767861843109
+        },
+        {
+          "name": "Omar",
+          "score": 0.2385779619216919
+        },
+        {
+          "name": "Elliott",
+          "score": 0.2366836667060852
+        },
+        {
+          "name": "William",
+          "score": 0.2296263575553894
+        },
+        {
+          "name": "Rafael",
+          "score": 0.22148868441581726
+        },
+        {
+          "name": "Leo",
+          "score": 0.2140176147222519
+        },
+        {
+          "name": "Jonas",
+          "score": 0.20615918934345245
+        }
+      ],
+      "pedro_rank": 7,
+      "recall_at_3": 0
+    },
+    {
+      "method": "no_marker",
+      "cue_count": 2,
+      "ranking": [
+        {
+          "name": "Jonas",
+          "score": 0.6396288275718689
+        },
+        {
+          "name": "Elliott",
+          "score": 0.6263440251350403
+        },
+        {
+          "name": "William",
+          "score": 0.6084234118461609
+        },
+        {
+          "name": "Leo",
+          "score": 0.5963097214698792
+        },
+        {
+          "name": "Rafael",
+          "score": 0.5129843950271606
+        },
+        {
+          "name": "Pedro",
+          "score": 0.5028288960456848
+        },
+        {
+          "name": "Xi",
+          "score": 0.4393286108970642
+        },
+        {
+          "name": "Boris",
+          "score": 0.42172476649284363
+        },
+        {
+          "name": "Kenneth",
+          "score": 0.4058654308319092
+        },
+        {
+          "name": "Dmitri",
+          "score": 0.3602297902107239
+        },
+        {
+          "name": "Gabriel",
+          "score": 0.3314572870731354
+        },
+        {
+          "name": "Omar",
+          "score": 0.30282676219940186
+        },
+        {
+          "name": "Yusuf",
+          "score": 0.2751859128475189
+        }
+      ],
+      "pedro_rank": 6,
+      "recall_at_3": 0
+    },
+    {
+      "method": "no_marker",
+      "cue_count": 3,
+      "ranking": [
+        {
+          "name": "Pedro",
+          "score": 0.7285268306732178
+        },
+        {
+          "name": "William",
+          "score": 0.6791639924049377
+        },
+        {
+          "name": "Leo",
+          "score": 0.640713632106781
+        },
+        {
+          "name": "Omar",
+          "score": 0.6272244453430176
+        },
+        {
+          "name": "Elliott",
+          "score": 0.6251189708709717
+        },
+        {
+          "name": "Jonas",
+          "score": 0.6147815585136414
+        },
+        {
+          "name": "Rafael",
+          "score": 0.45025888085365295
+        },
+        {
+          "name": "Xi",
+          "score": 0.39796769618988037
+        },
+        {
+          "name": "Boris",
+          "score": 0.39498206973075867
+        },
+        {
+          "name": "Yusuf",
+          "score": 0.35769644379615784
+        },
+        {
+          "name": "Kenneth",
+          "score": 0.35640519857406616
+        },
+        {
+          "name": "Dmitri",
+          "score": 0.3011494278907776
+        },
+        {
+          "name": "Gabriel",
+          "score": 0.27646929025650024
+        }
+      ],
+      "pedro_rank": 1,
+      "recall_at_3": 1
+    }
+  ]
+}

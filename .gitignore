@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated Lance tables (rebuild with build_dataset.py)
+data/maker_night/
