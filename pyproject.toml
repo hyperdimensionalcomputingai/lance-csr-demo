@@ -1,0 +1,27 @@
+[project]
+name = "lance-csr-demo"
+version = "0.1.0"
+description = "Dataset and demos for the lance-csr blog post"
+readme = "README.md"
+authors = [
+    { name = "prrao87", email = "prrao87@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "lance-csr==0.12.0",
+    "lancedb>=0.40.0",
+    "pillow>=13.0.0",
+    "polars>=2.1.0",
+    "pyarrow>=26.0.1",
+    "pylance>=13,<14",
+    "torch>=2.15.0",
+    "torch-hd>=5.8.4",
+]
+
+[tool.ruff]
+line-length = 100
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.4",
+]
