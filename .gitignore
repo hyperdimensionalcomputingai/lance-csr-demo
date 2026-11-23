@@ -221,3 +221,4 @@ __marimo__/
 
 # Generated Lance tables (rebuild with build_dataset.py)
 data/maker_night/
+algorithms/output/
